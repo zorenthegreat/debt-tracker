@@ -1,0 +1,39 @@
+.container {
+  display: flex;
+  align-items: center;
+}
+
+.wrapper {
+  position: relative;
+  background: #f4f4f4;
+  height: 250px;
+  width: 250px;
+  padding: 20em;
+  top: 2em;
+  border-radius: 2%;
+}
+
+.description {
+  position: relative;
+  left: 60px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 90px;
+  height: auto;
+  margin-right: 9px;
+}
+
+.img {
+  object-fit: contain;
+  position: absolute;
+  height: 45%;
+  width: 50%;
+  top: 25%;
+  right: 25%;
+}
